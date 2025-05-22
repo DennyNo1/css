@@ -1,0 +1,31 @@
+* {
+    /* * 是一个通用选择器，它会匹配页面上的所有 HTML 元素，但它的优先级是最低的 */
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: border-box 是一个非常重要的属性
+    默认情况下（content-box），元素的宽度和高度仅包括内容区域
+    设置为 border-box 后，元素的宽度和高度将包含:
+    内容 (content)
+    内边距 (padding)
+    边框 (border) */
+
+
+}
+
+body {
+    /* body的优先级仅仅只是高于* */
+    font-family: 'Lato', sans-serif;
+    /* 设置字体为微软雅黑，如果没有则使用 sans-serif 字体 */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    /* 行高是字体的1.7倍 */
+    color: #777;
+}
+
+.header {
+    height: 95vh;
+    /* background-image: ; */
+}
